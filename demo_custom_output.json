@@ -1,0 +1,41 @@
+{
+  "profiles": [
+    {
+      "full_name": "Alice Nguyen",
+      "primary_email": "alice.nguyen@example.com",
+      "phone": "+14155550142",
+      "skills": [
+        "AWS",
+        "Django",
+        "PostgreSQL",
+        "Python"
+      ],
+      "current_company": "Northwind Analytics",
+      "overall_confidence": 0.73,
+      "candidate_id": "cand_89c2067237"
+    },
+    {
+      "full_name": "Bob Carter",
+      "primary_email": "bob.carter@example.com",
+      "phone": "+14155559981",
+      "skills": null,
+      "current_company": "Lumen Robotics",
+      "overall_confidence": 0.38,
+      "candidate_id": "cand_12491e490b"
+    },
+    {
+      "full_name": "Priya Sharma",
+      "primary_email": "priya.sharma@example.com",
+      "phone": "+919812345678",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "SQL",
+        "TensorFlow"
+      ],
+      "current_company": "Vertex Health",
+      "overall_confidence": 0.72,
+      "candidate_id": "cand_82a592341b"
+    }
+  ]
+}
