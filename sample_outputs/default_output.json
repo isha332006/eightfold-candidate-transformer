@@ -1,0 +1,773 @@
+{
+  "profiles": [
+    {
+      "candidate_id": "cand_89c2067237",
+      "full_name": "Alice Nguyen",
+      "emails": [
+        "alice.nguyen@example.com"
+      ],
+      "phones": [
+        "+14155550142"
+      ],
+      "location": {
+        "city": "San Francisco",
+        "region": null,
+        "country": "US"
+      },
+      "links": {
+        "linkedin": null,
+        "github": null,
+        "portfolio": null,
+        "other": []
+      },
+      "headline": "Backend engineer focused on distributed data systems.",
+      "years_experience": 7,
+      "skills": [
+        {
+          "name": "AWS",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "recruiter_notes",
+            "resume"
+          ]
+        },
+        {
+          "name": "Django",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "resume"
+          ]
+        },
+        {
+          "name": "Docker",
+          "confidence": 0.9,
+          "sources": [
+            "recruiter_notes",
+            "resume"
+          ]
+        },
+        {
+          "name": "Git",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "name": "Kubernetes",
+          "confidence": 0.9,
+          "sources": [
+            "recruiter_notes",
+            "resume"
+          ]
+        },
+        {
+          "name": "PostgreSQL",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "resume"
+          ]
+        },
+        {
+          "name": "Python",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "recruiter_notes",
+            "resume"
+          ]
+        },
+        {
+          "name": "REST APIs",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Northwind Analytics",
+          "title": "Senior Backend Engineer",
+          "start": "2022-01",
+          "end": null,
+          "summary": "Led migration of core services to a Python/Django stack on AWS, improving throughput by 3x. Built internal tooling using PostgreSQL and Docker."
+        },
+        {
+          "company": "DataForge Inc",
+          "title": "Backend Engineer",
+          "start": "2019-06",
+          "end": "2021-12",
+          "summary": "Built REST APIs and ETL pipelines in Python; introduced Kubernetes for service orchestration."
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Washington",
+          "degree": "B.S. Computer Science, 2019",
+          "field": null,
+          "end_year": 2019
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "recruiter_csv",
+          "method": "csv_column:name"
+        },
+        {
+          "field": "full_name",
+          "source": "ats_json",
+          "method": "ats_json_field:candidate_name"
+        },
+        {
+          "field": "full_name",
+          "source": "recruiter_notes",
+          "method": "regex:name_hint"
+        },
+        {
+          "field": "full_name",
+          "source": "resume",
+          "method": "resume_heuristic:first_line"
+        },
+        {
+          "field": "emails",
+          "source": "recruiter_csv",
+          "method": "csv_column:email"
+        },
+        {
+          "field": "emails",
+          "source": "ats_json",
+          "method": "ats_json_field:contact.email_address"
+        },
+        {
+          "field": "emails",
+          "source": "recruiter_notes",
+          "method": "regex:email"
+        },
+        {
+          "field": "emails",
+          "source": "resume",
+          "method": "regex:email"
+        },
+        {
+          "field": "phones",
+          "source": "recruiter_csv",
+          "method": "csv_column:phone"
+        },
+        {
+          "field": "phones",
+          "source": "ats_json",
+          "method": "ats_json_field:contact.mobile"
+        },
+        {
+          "field": "phones",
+          "source": "recruiter_notes",
+          "method": "regex:phone"
+        },
+        {
+          "field": "phones",
+          "source": "resume",
+          "method": "regex:phone"
+        },
+        {
+          "field": "location",
+          "source": "ats_json",
+          "method": "ats_json_field:location.city"
+        },
+        {
+          "field": "location",
+          "source": "ats_json",
+          "method": "ats_json_field:location.country"
+        },
+        {
+          "field": "headline",
+          "source": "ats_json",
+          "method": "ats_json_field:summary"
+        },
+        {
+          "field": "years_experience",
+          "source": "resume",
+          "method": "resume_heuristic:date_span"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "recruiter_notes",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "recruiter_notes",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "recruiter_notes",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "recruiter_notes",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "experience",
+          "source": "resume",
+          "method": "resume_section:experience"
+        },
+        {
+          "field": "experience",
+          "source": "resume",
+          "method": "resume_section:experience"
+        },
+        {
+          "field": "education",
+          "source": "resume",
+          "method": "resume_section:education"
+        }
+      ],
+      "overall_confidence": 0.9
+    },
+    {
+      "candidate_id": "cand_12491e490b",
+      "full_name": "Bob Carter",
+      "emails": [
+        "bob.carter@example.com"
+      ],
+      "phones": [
+        "+14155559981"
+      ],
+      "location": {
+        "city": null,
+        "region": null,
+        "country": null
+      },
+      "links": {
+        "linkedin": null,
+        "github": null,
+        "portfolio": null,
+        "other": []
+      },
+      "headline": null,
+      "years_experience": 5,
+      "skills": [
+        {
+          "name": "C",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "name": "C++",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "name": "CI/CD",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "name": "Git",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "name": "Go",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "name": "Linux",
+          "confidence": 0.8,
+          "sources": [
+            "resume"
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Lumen Robotics",
+          "title": "Software Engineer II",
+          "start": "2021-03",
+          "end": null,
+          "summary": "Developed embedded control software in C++ and Go for robotics fleet management; integrated MQTT-based telemetry."
+        }
+      ],
+      "education": [
+        {
+          "institution": "Oregon State University",
+          "degree": "B.S. Electrical Engineering, 2021",
+          "field": null,
+          "end_year": 2021
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "recruiter_csv",
+          "method": "csv_column:name"
+        },
+        {
+          "field": "full_name",
+          "source": "resume",
+          "method": "resume_heuristic:first_line"
+        },
+        {
+          "field": "emails",
+          "source": "recruiter_csv",
+          "method": "csv_column:email"
+        },
+        {
+          "field": "emails",
+          "source": "resume",
+          "method": "regex:email"
+        },
+        {
+          "field": "phones",
+          "source": "recruiter_csv",
+          "method": "csv_column:phone"
+        },
+        {
+          "field": "phones",
+          "source": "resume",
+          "method": "regex:phone"
+        },
+        {
+          "field": "years_experience",
+          "source": "resume",
+          "method": "resume_heuristic:date_span"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "resume",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "experience",
+          "source": "resume",
+          "method": "resume_section:experience"
+        },
+        {
+          "field": "education",
+          "source": "resume",
+          "method": "resume_section:education"
+        }
+      ],
+      "overall_confidence": 0.67
+    },
+    {
+      "candidate_id": "cand_82a592341b",
+      "full_name": "Priya Sharma",
+      "emails": [
+        "priya.sharma@example.com"
+      ],
+      "phones": [
+        "+919812345678"
+      ],
+      "location": {
+        "city": "Bengaluru",
+        "region": null,
+        "country": "IN"
+      },
+      "links": {
+        "linkedin": "https://www.linkedin.com/in/priya-sharma-example",
+        "github": null,
+        "portfolio": null,
+        "other": []
+      },
+      "headline": "Data scientist building clinical risk models.",
+      "years_experience": null,
+      "skills": [
+        {
+          "name": "Machine Learning",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "linkedin",
+            "recruiter_notes"
+          ]
+        },
+        {
+          "name": "NLP",
+          "confidence": 0.85,
+          "sources": [
+            "linkedin",
+            "recruiter_notes"
+          ]
+        },
+        {
+          "name": "Python",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "linkedin"
+          ]
+        },
+        {
+          "name": "SQL",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "linkedin",
+            "recruiter_notes"
+          ]
+        },
+        {
+          "name": "TensorFlow",
+          "confidence": 1.0,
+          "sources": [
+            "ats_json",
+            "linkedin"
+          ]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Vertex Health",
+          "title": "Data Scientist",
+          "start": "2021-08",
+          "end": null,
+          "summary": "Building clinical risk models using Python and TensorFlow."
+        },
+        {
+          "company": "Helio Analytics",
+          "title": "Data Analyst",
+          "start": "2019-07",
+          "end": "2021-07",
+          "summary": "SQL-based reporting and dashboarding for the clinical ops team."
+        }
+      ],
+      "education": [
+        {
+          "institution": "Indian Institute of Technology, Bombay",
+          "degree": "B.Tech",
+          "field": "Computer Science",
+          "end_year": 2019
+        }
+      ],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "recruiter_csv",
+          "method": "csv_column:name"
+        },
+        {
+          "field": "full_name",
+          "source": "ats_json",
+          "method": "ats_json_field:candidate_name"
+        },
+        {
+          "field": "full_name",
+          "source": "recruiter_notes",
+          "method": "regex:name_hint"
+        },
+        {
+          "field": "full_name",
+          "source": "linkedin",
+          "method": "linkedin_field:name"
+        },
+        {
+          "field": "emails",
+          "source": "recruiter_csv",
+          "method": "csv_column:email"
+        },
+        {
+          "field": "emails",
+          "source": "ats_json",
+          "method": "ats_json_field:contact.email_address"
+        },
+        {
+          "field": "emails",
+          "source": "recruiter_notes",
+          "method": "regex:email"
+        },
+        {
+          "field": "phones",
+          "source": "ats_json",
+          "method": "ats_json_field:contact.mobile"
+        },
+        {
+          "field": "location",
+          "source": "ats_json",
+          "method": "ats_json_field:location.city"
+        },
+        {
+          "field": "location",
+          "source": "ats_json",
+          "method": "ats_json_field:location.country"
+        },
+        {
+          "field": "links.linkedin",
+          "source": "linkedin",
+          "method": "linkedin_field:profile_url"
+        },
+        {
+          "field": "headline",
+          "source": "ats_json",
+          "method": "ats_json_field:summary"
+        },
+        {
+          "field": "headline",
+          "source": "linkedin",
+          "method": "linkedin_field:headline"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "ats_json",
+          "method": "ats_json_field:skills_list"
+        },
+        {
+          "field": "skills",
+          "source": "recruiter_notes",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "recruiter_notes",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "recruiter_notes",
+          "method": "regex:skill_keyword"
+        },
+        {
+          "field": "skills",
+          "source": "linkedin",
+          "method": "linkedin_field:skills"
+        },
+        {
+          "field": "skills",
+          "source": "linkedin",
+          "method": "linkedin_field:skills"
+        },
+        {
+          "field": "skills",
+          "source": "linkedin",
+          "method": "linkedin_field:skills"
+        },
+        {
+          "field": "skills",
+          "source": "linkedin",
+          "method": "linkedin_field:skills"
+        },
+        {
+          "field": "skills",
+          "source": "linkedin",
+          "method": "linkedin_field:skills"
+        },
+        {
+          "field": "experience",
+          "source": "linkedin",
+          "method": "linkedin_field:experience"
+        },
+        {
+          "field": "experience",
+          "source": "linkedin",
+          "method": "linkedin_field:experience"
+        },
+        {
+          "field": "education",
+          "source": "linkedin",
+          "method": "linkedin_field:education"
+        }
+      ],
+      "overall_confidence": 0.8
+    },
+    {
+      "candidate_id": "cand_9af4b3927e",
+      "full_name": "The Octocat",
+      "emails": [],
+      "phones": [],
+      "location": {
+        "city": "San Francisco",
+        "region": null,
+        "country": null
+      },
+      "links": {
+        "linkedin": null,
+        "github": "https://github.com/octocat",
+        "portfolio": "https://github.blog",
+        "other": []
+      },
+      "headline": null,
+      "years_experience": null,
+      "skills": [
+        {
+          "name": "CSS",
+          "confidence": 0.6,
+          "sources": [
+            "github"
+          ]
+        },
+        {
+          "name": "HTML",
+          "confidence": 0.6,
+          "sources": [
+            "github"
+          ]
+        },
+        {
+          "name": "Ruby",
+          "confidence": 0.6,
+          "sources": [
+            "github"
+          ]
+        }
+      ],
+      "experience": [],
+      "education": [],
+      "provenance": [
+        {
+          "field": "full_name",
+          "source": "github",
+          "method": "github_api:name"
+        },
+        {
+          "field": "location",
+          "source": "github",
+          "method": "github_api:location"
+        },
+        {
+          "field": "links.github",
+          "source": "github",
+          "method": "github_api:html_url"
+        },
+        {
+          "field": "links.portfolio",
+          "source": "github",
+          "method": "github_api:blog"
+        },
+        {
+          "field": "skills",
+          "source": "github",
+          "method": "github_api:repo_language"
+        },
+        {
+          "field": "skills",
+          "source": "github",
+          "method": "github_api:repo_language"
+        },
+        {
+          "field": "skills",
+          "source": "github",
+          "method": "github_api:repo_language"
+        }
+      ],
+      "overall_confidence": 0.2
+    }
+  ]
+}

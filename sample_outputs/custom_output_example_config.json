@@ -1,0 +1,66 @@
+{
+  "profiles": [
+    {
+      "full_name": "Alice Nguyen",
+      "primary_email": "alice.nguyen@example.com",
+      "phone": "+14155550142",
+      "skills": [
+        "AWS",
+        "Django",
+        "Docker",
+        "Git",
+        "Kubernetes",
+        "PostgreSQL",
+        "Python",
+        "REST APIs"
+      ],
+      "current_company": "Northwind Analytics",
+      "overall_confidence": 0.9,
+      "candidate_id": "cand_89c2067237"
+    },
+    {
+      "full_name": "Bob Carter",
+      "primary_email": "bob.carter@example.com",
+      "phone": "+14155559981",
+      "skills": [
+        "C",
+        "C++",
+        "CI/CD",
+        "Git",
+        "Go",
+        "Linux"
+      ],
+      "current_company": "Lumen Robotics",
+      "overall_confidence": 0.67,
+      "candidate_id": "cand_12491e490b"
+    },
+    {
+      "full_name": "Priya Sharma",
+      "primary_email": "priya.sharma@example.com",
+      "phone": "+919812345678",
+      "skills": [
+        "Machine Learning",
+        "NLP",
+        "Python",
+        "SQL",
+        "TensorFlow"
+      ],
+      "current_company": "Vertex Health",
+      "overall_confidence": 0.71,
+      "candidate_id": "cand_82a592341b"
+    },
+    {
+      "full_name": "The Octocat",
+      "primary_email": null,
+      "phone": null,
+      "skills": [
+        "CSS",
+        "HTML",
+        "Ruby"
+      ],
+      "current_company": null,
+      "overall_confidence": 0.2,
+      "candidate_id": "cand_9af4b3927e"
+    }
+  ]
+}

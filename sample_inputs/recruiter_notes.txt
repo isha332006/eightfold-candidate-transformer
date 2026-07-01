@@ -1,0 +1,16 @@
+Call notes - Re: Alice Nguyen
+
+Spoke with Alice on 6/12. She's currently at Northwind Analytics as a senior
+backend engineer. Strong Python and AWS background, mentioned she's also
+picked up some Kubernetes and Docker experience on a recent project. Open to
+relocating. Best email on file: alice.nguyen@example.com. Cell: 415.555.0142.
+
+---
+
+Notes on Priya Sharma
+
+Quick screen call. Priya is a Data Scientist at Vertex Health, very strong
+on SQL and machine learning, mentioned NLP work too. Said her preferred
+contact is priya.sharma@example.com. Phone number she gave sounded
+incomplete/garbled on the call, not capturing it here to avoid recording a
+bad number.

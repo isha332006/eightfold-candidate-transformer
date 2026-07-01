@@ -1,0 +1,27 @@
+{
+  "profiles": [
+    {
+      "name": "Alice Nguyen",
+      "email": "alice.nguyen@example.com",
+      "city": "San Francisco",
+      "candidate_id": "cand_89c2067237"
+    },
+    {
+      "name": "Bob Carter",
+      "email": "bob.carter@example.com",
+      "candidate_id": "cand_12491e490b"
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "city": "Bengaluru",
+      "candidate_id": "cand_82a592341b"
+    },
+    {
+      "name": "The Octocat",
+      "city": "San Francisco",
+      "github": "https://github.com/octocat",
+      "candidate_id": "cand_9af4b3927e"
+    }
+  ]
+}

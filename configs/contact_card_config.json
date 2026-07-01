@@ -1,0 +1,11 @@
+{
+  "fields": [
+    { "path": "name", "from": "full_name", "type": "string", "required": true },
+    { "path": "email", "from": "emails[0]", "type": "string" },
+    { "path": "city", "from": "location.city", "type": "string" },
+    { "path": "github", "from": "links.github", "type": "string" }
+  ],
+  "include_confidence": false,
+  "include_provenance": false,
+  "on_missing": "omit"
+}

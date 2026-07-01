@@ -1,0 +1,22 @@
+{
+  "candidates": [
+    {
+      "candidate_name": "Alice Nguyen",
+      "contact": { "email_address": "alice.nguyen@example.com", "mobile": "+14155550142" },
+      "employer": "Northwind Analytics",
+      "role": "Senior Backend Engineer",
+      "skills_list": ["python", "postgres", "aws", "django"],
+      "summary": "Backend engineer focused on distributed data systems.",
+      "location": { "city": "San Francisco", "country": "United States" }
+    },
+    {
+      "candidate_name": "Priya Sharma",
+      "contact": { "email_address": "priya.sharma@example.com", "mobile": "+919812345678" },
+      "employer": "Vertex Health",
+      "role": "Data Scientist",
+      "skills_list": ["python", "sql", "machine learning", "tensorflow"],
+      "summary": "Data scientist building clinical risk models.",
+      "location": { "city": "Bengaluru", "country": "India" }
+    }
+  ]
+}

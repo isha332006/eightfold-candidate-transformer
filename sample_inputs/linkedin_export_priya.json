@@ -1,0 +1,25 @@
+{
+  "name": "Priya Sharma",
+  "headline": "Data Scientist @ Vertex Health | ML for clinical risk",
+  "profile_url": "https://www.linkedin.com/in/priya-sharma-example",
+  "experience": [
+    {
+      "company": "Vertex Health",
+      "title": "Data Scientist",
+      "start": "2021-08",
+      "end": "Present",
+      "description": "Building clinical risk models using Python and TensorFlow."
+    },
+    {
+      "company": "Helio Analytics",
+      "title": "Data Analyst",
+      "start": "2019-07",
+      "end": "2021-07",
+      "description": "SQL-based reporting and dashboarding for the clinical ops team."
+    }
+  ],
+  "education": [
+    { "school": "Indian Institute of Technology, Bombay", "degree": "B.Tech", "field_of_study": "Computer Science", "end_year": 2019 }
+  ],
+  "skills": ["python", "sql", "tensorflow", "nlp", "machine learning"]
+}

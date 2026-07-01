@@ -1,0 +1,4 @@
+name,email,phone,current_company,title
+Alice Nguyen,alice.nguyen@example.com,(415) 555-0142,Northwind Analytics,Senior Backend Engineer
+Bob Carter,bob.carter@example.com,415-555-9981,Lumen Robotics,Software Engineer II
+Priya Sharma,priya.sharma@example.com,not-a-phone-number,Vertex Health,Data Scientist
