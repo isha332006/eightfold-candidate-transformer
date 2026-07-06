@@ -114,7 +114,7 @@ Same engine, no code changes — pass `--config path/to/config.json`. See
 `on_missing`: `"null"` (default, fill with null), `"omit"` (drop the key),
 or `"error"` (raise/skip the field if `required: true`).
 
-## Assumptions & deliberate descopes (note these, per the assignment)
+## Assumptions & deliberate descopes 
 
 - **LinkedIn**: there is no public API, and live scraping linkedin.com would
   violate their Terms of Service, so `linkedin_extractor.py` reads a
