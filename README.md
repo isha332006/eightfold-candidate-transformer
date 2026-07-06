@@ -5,9 +5,7 @@ LinkedIn, resumes, recruiter notes) into one canonical, deduplicated,
 provenance-tracked candidate profile — with a runtime-configurable output
 shape and no code changes required to reshape it.
 
-See `DESIGN.pdf` (or `DESIGN.md`) for the one-page technical design write-up
-(pipeline breakdown, schema, merge/confidence policy, edge cases, scope
-decisions).
+
 
 ## Quick start
 
